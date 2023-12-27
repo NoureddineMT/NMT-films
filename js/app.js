@@ -94,7 +94,7 @@ async function getMovies(title) {
             }
             
         }
-        $(".pagination").html(`
+        /* $(".pagination").html(`
             <li class="page-item">
                 <a class="page-link" href="#" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
@@ -108,7 +108,7 @@ async function getMovies(title) {
                 <span aria-hidden="true">&raquo;</span>
                 </a>
             </li>
-        `)
+        `) */
         return data.results;
     } catch (error) {
         console.error('Errore durante la richiesta API:', error);
